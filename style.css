@@ -1,0 +1,25 @@
+[data-tab-content] {
+  display: none;
+}
+
+[data-tab-content].active {
+  display: block;
+}
+
+/* Optional styling for nav */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav li {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+nav li:hover {
+  background-color: #ccc;
+}
